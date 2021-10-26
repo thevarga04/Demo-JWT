@@ -1,0 +1,65 @@
+GET http://localhost:38006/protected
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIybmRVc2VyIiwiZXhwIjoxNjM1MjY2MzE5LCJpYXQiOjE2MzUyNjYwMTl9.wZ3gmNOSSJdMcyYNDixtPvgQw8E02F3ZgfBF3D5bGEBOvRWCO8-NoQgoq6pU4QDjiKACOoEWC3hEklswgiQ24w
+
+
+###
+### Generate JWT Token
+POST http://localhost:38006/api/realm/getToken
+Content-Type: application/json
+
+{
+  "username": "2ndUser",
+  "password": "anotherPassword"
+}
+
+<> 2021-10-26T152522.200.txt
+<> 2021-10-26T152512.200.txt
+<> 2021-10-26T152343.200.txt
+<> 2021-10-26T152325.200.txt
+<> 2021-10-26T151623.200.txt
+<> 2021-10-26T150815.200.txt
+
+###
+### Generate JWT Token
+POST http://localhost:38006/api/realm/getToken
+Content-Type: application/json
+
+{
+  "username": "1stUser",
+  "password": "aPassword"
+}
+
+<> 2021-10-26T150630.200.txt
+
+
+
+###
+### Create 2md demo user - Send POST request with json body
+POST http://localhost:38006/api/realm/addUser
+Content-Type: application/json
+
+{
+  "username": "2ndUser",
+  "name"    : "Nick",
+  "surname" : "Cox",
+  "password": "anotherPassword"
+}
+
+<> 2021-10-26T150734.200.json
+
+
+###
+### Create demo user - Send POST request with json body
+POST http://localhost:38006/api/realm/addUser
+Content-Type: application/json
+
+{
+  "username": "1stUser",
+  "name"    : "Paul",
+  "surname" : "Harris",
+  "password": "aPassword"
+}
+
+<> 2021-10-26T125148.200.json
+
