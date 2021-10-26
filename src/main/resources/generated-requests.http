@@ -1,6 +1,6 @@
 GET http://localhost:38006/protected
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIybmRVc2VyIiwiZXhwIjoxNjM1MjY2MzE5LCJpYXQiOjE2MzUyNjYwMTl9.wZ3gmNOSSJdMcyYNDixtPvgQw8E02F3ZgfBF3D5bGEBOvRWCO8-NoQgoq6pU4QDjiKACOoEWC3hEklswgiQ24w
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIybmRVc2VyIiwiZXhwIjoxNjM1MjY4MTMyLCJpYXQiOjE2MzUyNjc4MzJ9.HxIlU4eT6q9opKXWMq2RqcCn-tFMygrEjubdImCNbVKcbUoJksc-mxWapZC4iIn0QPz7IGBt2LzSvIrGpmQvNA
 
 
 ###

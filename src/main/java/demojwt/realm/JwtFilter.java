@@ -50,7 +50,7 @@ public class JwtFilter extends OncePerRequestFilter {
     }
     
     
-    // Set authorization
+    // Set authorization (JWT is stateless, does not need any concrete principal)
     UsernamePasswordAuthenticationToken auth = new UsernamePasswordAuthenticationToken( null, null, new ArrayList<>() );
     SecurityContextHolder.getContext().setAuthentication( auth );
     filterChain.doFilter( request, response );
